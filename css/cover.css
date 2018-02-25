@@ -112,6 +112,13 @@ body {
   }
 }
 
+.img1{
+	height: 160px;
+  width: 460px;
+  right: 20px;
+  padding: 10px 0 40px 0;
+}
+
 
 /*
  * Cover
