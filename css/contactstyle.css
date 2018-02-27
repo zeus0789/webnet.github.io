@@ -21,11 +21,12 @@
 html, body {
     margin: 0 0 0 0;
     padding: 0;
+	height: 100%;
 }
 body{
   height: 100%;
   padding-top: 0px;
-  background: url(../pic/pic3.jpg) no-repeat center center fixed;
+  background: url(../pic/back2.png) no-repeat center center fixed;
   color: #FFF;
 }
 
@@ -58,68 +59,22 @@ input[type=submit]:hover {
     font-family: Bitter,serif;
     display: inline-block;
     float: right;
-	height:60%;
+	height:50%;
     width: 45%;
-    margin: 20px;
-    border-radius: 10px;
-    padding :30px 40px 20px 30px;
+    padding :0 40px 20px 10px;
 }
 .container h1{
   text-align: center;
-  font-family: Permanent Marker, cursive;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 .card-container{
   float: left;
   display: inline-flex;
   height:60%;
     width: 45%;
-	margin: 45px;
-  padding-left: 20px;
-  padding-top: 20px;
+  padding-left: 80px;
 }
 
-.nav-img{
-  float: left;
-  width: 60px;
-  height: 60px;
-
-}
-.navbar
-{
-  overflow: hidden;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1;
-  padding: 30px 50px 20px 10px;
-}
-.navbar a{
- padding-right: 10px;
-  padding-left: 0;
-  font-size: 20px;
-  font-weight: bold;
-  color: #fff; /* IE8 proofing */
-  color: #fff;
-  border-bottom: 2px solid transparent;
-  display: inline-block;
-   margin-left: 10px;
-   float: right;
-}
-
-.navbar a, a:hover{
-	color:white;
-}
-
-#nav a:hover{
-  background-color: transparent;
-  background-color: rgba(255,255,255,0.69);
-  border: solid rgba(255,255,255,1);
-  border-radius:5px;
-  padding: 2px 2px 2px 2px;
-  text-decoration: none;
-  color: white;
-}
 .card {
     
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -189,7 +144,7 @@ footer{
 
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   color:black;
   position: absolute;
   top: 50%;
@@ -199,3 +154,68 @@ footer{
   text-align: center;
 }
 
+
+nav{
+	position:relative;
+	top:0;
+	width:100%;
+	padding-right: 20px;
+	padding-left:30px;
+	box-sizing: border-box;
+	transition: .3s;
+}
+
+nav .logo {
+	padding: 0 20px;
+	float:left;
+	font-size:24px;
+	transition: .3s;
+	
+}
+
+nav ul {
+	list-style:none;
+	float:right;
+	margin:0;
+	padding:20px 50px;
+	padding-left:20px;
+	display:flex;
+}
+
+nav ul li {
+	list-style:none;
+}
+
+nav ul li a{
+	line-height: 60px;
+	color: #151515;
+	padding: 12px 25px;
+	text-decoration:none;
+	text-transform:Uppercase;
+	color: white;
+	font-size: 17px;
+}
+
+nav ul li a:focus{
+	outline: none;
+}
+
+nav ul li a.active{
+	background: #E2472F;
+	color: #fff;
+	border-radius: 6px;
+}
+
+nav ul li a:hover {
+    background: #fbb917;
+    color: black;
+	border-radius:6px;
+	text-decoration:none;
+}
+
+.img1{
+	height: 120px;
+  width: 300px;
+  right: 20px;
+  padding: 0 0 40px 0;
+}
